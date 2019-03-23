@@ -1,0 +1,37 @@
+{
+  "index": {
+    "title": "Sobre mim",
+    "welcome": "Ol&aacute;! Eu sou",
+    "name": "SEU NOME",
+    "occupation": "Sua ocupa&ccedil;&atilde;o [estudante/pesquisador]"
+  },
+  "pages": {
+    "home": "IN&Iacute;CIO",
+    "about": "SOBRE",
+    "carrer": "CARREIRA",
+    "projects": "PROJETOS",
+    "socialNetwork": "REDES SOCIAIS"
+  },
+  "cards": {
+    "about": {
+      "me": "SOBRE MIM",
+      "description": "Descri&ccedil;&atilde;o curta sobre voc&ecirc; e refer&ecirc;ncias sobre a p&aacute;gina about.me",
+      "date": "Data da &uacute;ltima edi&ccedil;&atilde;o"
+    },
+    "carrer": {
+      "me": "CARREIRA",
+      "description": "Descri&ccedil;&atilde;o curta sobre sua carreira e refer&ecirc;ncias sobre a p&aacute;gina de carreira",
+      "date": "Data da &uacute;ltima edi&ccedil;&atilde;o"
+    },
+    "projects": {
+      "me": "PROJETOS",
+      "description": "Descri&ccedil;&atilde;o curta sobre seus projetos e refer&ecirc;ncias para a p&aacute;gina",
+      "date": "Data da &uacute;ltima edi&ccedil;&atilde;o"
+    },
+    "socialNetwork": {
+      "me": "REDES SOCIAIS",
+      "description": "Descri&ccedil;&atilde;o curta sobre suas redes sociais e refer&ecirc;ncias para a p&aacute;gina",
+      "date": "Data da &uacute;ltima edi&ccedil;&atilde;o"
+    }
+  }
+}

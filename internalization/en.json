@@ -1,0 +1,37 @@
+{
+  "index": {
+    "title": "About.me",
+    "welcome": "Hello everybody, I am",
+    "name": "YOUR NAME",
+    "occupation": "Your occupation [student/researcher]"
+  },
+  "pages": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "carrer": "CARRER",
+    "projects": "PROJECTS",
+    "socialNetwork": "SOCIAL NETWORK"
+  },
+  "cards": {
+    "about": {
+      "me": "ABOUT ME",
+      "description": "Short description about you and references to about.me page",
+      "date": "Date of last edition"
+    },
+    "carrer": {
+      "me": "CARRER",
+      "description": "Short description about your carrer and references to carrer page",
+      "date": "Date of last edition"
+    },
+    "projects": {
+      "me": "PROJECTS",
+      "description": "Short description about your projects and references to projects/portifolio page",
+      "date": "Date of last edition"
+    },
+    "socialNetwork": {
+      "me": "SOCIAL NETWORK",
+      "description": "Short description about your social networks and references to social page",
+      "date": "Date of last edition"
+    }
+  }
+}
