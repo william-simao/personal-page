@@ -1,31 +1,9 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
-
-#section-fixed {
-    font-family: 'Roboto Condensed', sans-serif;
-    width: 30%;
-    background-color: #37a8a7;
-    text-align: center;
-    height: 100vh;
-    float: left;
-}
-
-.card-fixed{
-    background-color: #fff;
-    float: none;
-    margin: auto;
-}
-
-#name {
-    font-weight: bold;
-}
-
-#photo{
-    width: 225px;
-    height: 225px;
-}
-
-a:hover, .card:hover{
+﻿.card:hover{
     cursor: pointer;
+}
+
+.card:hover{
+    color: #37a8a7;
 }
 
 #section-cards{
@@ -36,20 +14,4 @@ a:hover, .card:hover{
 .card{
     float: none;
     margin: auto;
-}
-
-/**Common*/
-.flags {
-    width: 45px;
-    height: 45px;
-    float: none;
-    margin: 0;
-}
-
-.footer{
-    float: none;
-}
-
-.flags:hover{
-    cursor: pointer;
 }

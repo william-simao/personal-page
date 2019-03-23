@@ -3,7 +3,8 @@
     "title": "Sobre mim",
     "welcome": "Ol&aacute;! Eu sou",
     "name": "SEU NOME",
-    "occupation": "Sua ocupa&ccedil;&atilde;o [estudante/pesquisador]"
+    "occupation": "Sua ocupa&ccedil;&atilde;o [estudante/pesquisador]",
+    "description": "Breve descri&ccedil;&atilde;o sobre a sua experi&ecirc;ncia. Esse texto somente ir&aacute; aparecer na tela de in&iacute;cio."
   },
   "pages": {
     "home": "IN&Iacute;CIO",
@@ -32,6 +33,12 @@
       "me": "REDES SOCIAIS",
       "description": "Descri&ccedil;&atilde;o curta sobre suas redes sociais e refer&ecirc;ncias para a p&aacute;gina",
       "date": "Data da &uacute;ltima edi&ccedil;&atilde;o"
+    }
+  },
+  "page": {
+    "about": {
+      "title": "SOBRE MIM",
+      "description": "Nesta p&aacute;gina voc&ecirc; pode escrever sobre voc&ecirc; e suas conquistas. Geralmente, o conte&uacute;do dessas p&aacute;ginas tem uma descri&ccedil;&atilde;o ampla das realiza&ccedil;&otilde;es pessoais, como datas de formatura ou viagem, e resume bem o seu hist&oacute;rico.<br /><br /> Eu recomendo que voc&ecirc; escreva um ou dois par&aacute;grafos sobre si mesmo. Para facilitar a escrita, considere esta para ser sua carta de apresenta&ccedil;&atilde;o para o visitante. Adicione informa&ccedil;&otilde;es relevantes aqui, ok?<br /><br /> Bem, para adicionar informa&ccedil;&otilde;es nesta p&aacute;gina, voc&ecirc; deve usar um pouco de HTML. N&atilde;o &eacute; nada dif&iacute;cil, mas pode ser um pouco confuso. Se voc&ecirc; quiser adicionar algum espa&ccedil;amento entre par&aacute;grafos, voc&ecirc; deve usar o c&oacute;digo &lt;br /&gt;. Este c&oacute;digo &eacute; conhecido como \"quebra de linha\", e toda vez que voc&ecirc; us&aacute;-lo ser&aacute; quebrado uma linha."
     }
   }
 }

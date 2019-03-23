@@ -5,7 +5,9 @@
     <meta charset="utf-8" />
     <title id="title"></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/common.css" />
 </head>
 <body>
     <section id="section-fixed">
@@ -19,14 +21,15 @@
                 <p id="welcome"></p>
                 <h1 id="name"></h1>
                 <h6 id="occupation"></h6>
-                <br/>
+                <br />
 
                 <div>
-                    <a id="home"></a><br />
+                    <h6 id="description"></h6>
+                    <!--<a id="home"></a><br />
                     <a id="about"></a><br />
                     <a id="carrer"></a><br />
                     <a id="projects"></a><br />
-                    <a id="social-network"></a>
+                    <a id="social-network"></a>-->
                 </div>
             </div>
             <br />
@@ -38,19 +41,27 @@
         <br />
         <div class="row">
             <div class="col-md-6">
-                <div class="card col-md-10">
-                    <div class="card-body">
-                        <h5 id="about-me" class="card-title"></h5>
-                        <p id="about-description" class="card-text"></p>
-                        <p class="card-text"><small id="about-date" class="text-muted"></small></p>
+                <a href="/about.html" style="color: #000;">
+                    <div class="card col-md-10">
+                        <div class="card-body">
+                            <div class="row">
+                                <h5 id="about-me" class="card-title col-md-10"></h5>
+                                <i class="material-icons col-md-2" style="float: left">local_library</i>
+                            </div>
+                            <p id="about-description" class="card-text"></p>
+                            <p class="card-text"><small id="about-date" class="text-muted"></small></p>
+                        </div>
                     </div>
-                </div>
+                </a></a>
             </div>
 
             <div class="col-md-6">
                 <div class="col-md-10 card ">
                     <div class="card-body">
-                        <h5 id="my-carrer" class="card-title"></h5>
+                        <div class="row">
+                            <h5 id="my-carrer" class="card-title col-md-10"></h5>
+                            <i class="material-icons col-md-2" style="float: left">business</i>
+                        </div>
                         <p id="carrer-description" class="card-text"></p>
                         <p class="card-text"><small id="carrer-date" class="text-muted"></small></p>
                     </div>
@@ -63,7 +74,10 @@
             <div class="col-md-6">
                 <div class="card col-md-10">
                     <div class="card-body">
-                        <h5 id="my-projects" class="card-title"></h5>
+                        <div class="row">
+                            <h5 id="my-projects" class="card-title col-md-10"></h5>
+                            <i class="material-icons col-md-2" style="float: left">star</i>
+                        </div>
                         <p id="projects-description" class="card-text"></p>
                         <p class="card-text"><small id="projects-date" class="text-muted"></small></p>
                     </div>
@@ -73,7 +87,10 @@
             <div class="col-md-6">
                 <div class="card col-md-10">
                     <div class="card-body">
-                        <h5 id="my-social-network" class="card-title"></h5>
+                        <div class="row">
+                            <h5 id="my-social-network" class="card-title col-md-10"></h5>
+                            <i class="material-icons col-md-2" style="float: left">alternate_email</i>
+                        </div>
                         <p id="social-network-description" class="card-text"></p>
                         <p class="card-text"><small id="social-network-date" class="text-muted"></small></p>
                     </div>
@@ -98,3 +115,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="scripts/index.js"></script>
+<script src="scripts/util.js"></script>

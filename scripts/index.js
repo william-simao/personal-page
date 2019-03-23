@@ -9,7 +9,7 @@ function loadENLanguage() {
         language = data;
         setTitle();
         setIdentity();
-        setPages();
+        //setPages();
         setAbout(language.cards.about);
         setCarrer(language.cards.carrer);
         setProjects(language.cards.projects);
@@ -22,7 +22,7 @@ function loadPTLanguage() {
         language = data;
         setTitle();
         setIdentity();
-        setPages();
+        //setPages();
         setAbout(language.cards.about);
         setCarrer(language.cards.carrer);
         setProjects(language.cards.projects);
@@ -38,11 +38,12 @@ function setIdentity() {
     set("welcome", language.index.welcome);
     set("name", language.index.name);
     set("occupation", language.index.occupation);
+    set("description", language.index.description);
 }
 
 function set(id, value) {
     $(`#${id}`).empty();
-    $(`#${id}`).append(value);
+    $(`#${id}`).append(replace(value));
 }
 
 function setPages() {
