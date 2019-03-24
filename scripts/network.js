@@ -49,7 +49,6 @@ function setPages() {
 }
 
 function loadContent(content) {
-    debugger;
     set("title-page", content.title);
     loadPersonal(content.personal);
     loadProfessional(content.professional);

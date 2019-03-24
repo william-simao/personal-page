@@ -42,7 +42,7 @@
     },
     "career": {
       "title": "CARREIRA",
-      "description": "Use este espa&ccedil;o para escrever sobre sua carreira. Nesta se&ccedil;&atilde;o, você deve incluir um breve hist&oacute;rico de seu trabalho, responsabilidades e fun&ccedil;&otilde;es desempenhadas.",
+      "description": "Use este espa&ccedil;o para escrever sobre sua carreira. Nesta se&ccedil;&atilde;o, voc&ecirc; deve incluir um breve hist&oacute;rico de seu trabalho, responsabilidades e fun&ccedil;&otilde;es desempenhadas.",
       "highlights": {
         "title": "Destaques",
         "itens": [
@@ -80,7 +80,7 @@
     },
     "projects": {
       "title": "Projetos",
-      "description": "Esta p&aacute;gina &eacute; dedicada a mostrar seus projetos pessoais ou profissionais. Neste lugar, voc&ecirc; pode expor t&iacute;tulo, breve resumo e fotos do projeto. Al&eacute;m disso, caso voc&ecirc; tenha lista de itens (como lista de publica&ccedil;&otilde;es), será nesta se&ccedil;&atilde;o que voc&eacute; dever&aacute; adicionar.",
+      "description": "Esta p&aacute;gina &eacute; dedicada a mostrar seus projetos pessoais ou profissionais. Neste lugar, voc&ecirc; pode expor t&iacute;tulo, breve resumo e fotos do projeto. Al&eacute;m disso, caso voc&ecirc; tenha lista de itens (como lista de publica&ccedil;&otilde;es), ser&aacute; nesta se&ccedil;&atilde;o que voc&eacute; dever&aacute; adicionar.",
       "projects": {
         "title": "Meus projetos",
         "itens": [
@@ -116,46 +116,34 @@
             "link": "https://url-artigo.net"
           }
         ]
-      },
-      "network": {
-        "title": "REDES SOCIAIS",
-        "personal": [
-          {
-            "icon": "https://icon-social-network",
-            "url": "https://your-network-link.com"
-          },
-          {
-            "icon": "https://icon-social-network",
-            "url": "https://your-network-link.com"
-          },
-          {
-            "icon": "https://icon-social-network",
-            "url": "https://your-network-link.com"
-          },
-          {
-            "icon": "https://icon-social-network",
-            "url": "https://your-network-link.com"
-          }
-        ],
-        "professional": [
-          {
-            "icon": "https://icon-social-network",
-            "url": "https://your-network-link.com"
-          },
-          {
-            "icon": "https://icon-social-network",
-            "url": "https://your-network-link.com"
-          },
-          {
-            "icon": "https://icon-social-network",
-            "url": "https://your-network-link.com"
-          },
-          {
-            "icon": "https://icon-social-network",
-            "url": "https://your-network-link.com"
-          }
-        ]
       }
+    },
+    "network": {
+      "title": "REDES SOCIAIS",
+      "personal": [
+        {
+          "icon": "twitter",
+          "url": "https://your-network-link.com"
+        },
+        {
+          "icon": "facebook",
+          "url": "https://your-network-link.com"
+        },
+        {
+          "icon": "instagram",
+          "url": "https://your-network-link.com"
+        }
+      ],
+      "professional": [
+        {
+          "icon": "linkedin",
+          "url": "https://your-network-link.com"
+        },
+        {
+          "icon": "package",
+          "url": "https://your-network-link.com"
+        }
+      ]
     }
   }
 }
