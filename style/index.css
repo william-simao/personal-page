@@ -1,6 +1,7 @@
 ﻿.section-cards {
-    overflow: auto; 
+    overflow: auto;
     height: 100vh;
+    float: left;
 }
 .card:hover{
     cursor: pointer;
@@ -8,11 +9,6 @@
 
 .card:hover{
     color: #37a8a7;
-}
-
-#section-cards{
-    width: 70%;
-    float: left;
 }
 
 .card{

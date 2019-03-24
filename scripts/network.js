@@ -49,6 +49,7 @@ function setPages() {
 }
 
 function loadContent(content) {
+    debugger;
     set("title-page", content.title);
     loadPersonal(content.personal);
     loadProfessional(content.professional);
@@ -67,7 +68,7 @@ function configIcon(icon) {
 }
 
 function configUrl(url) {
-    return `<a target="_blank" href="${url}">${url}</a>`;
+    return `<a style="color: #000" target="_blank" href="${url}">${url}</a>`;
 }
 
 function loadProfessional(itens) {

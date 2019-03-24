@@ -1,12 +1,16 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
 
+a{
+    color: #fff;
+}
+
 #section-fixed {
     font-family: 'Roboto Condensed', sans-serif;
-    /*width: 30%;*/
     background-color: #212529;
     text-align: center;
     height: 100vh;
     float: left;
+    overflow: auto;
 }
 
 .card-fixed {
@@ -59,7 +63,8 @@ a:hover {
 
 .section-text {
     font-family: 'Roboto Condensed', sans-serif;
-    width: 70%;
     float: left;
     padding: 60px;
+    overflow: auto;
+    height: 100vh;
 }

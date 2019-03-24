@@ -43,7 +43,7 @@ function set(id, value) {
 function setPages() {
     set("home", language.pages.home);
     set("about", language.pages.about);
-    set("carrer", language.pages.carrer);
+    set("career", language.pages.career);
     set("projects", language.pages.projects);
     set("social-network", language.pages.socialNetwork);
 }
