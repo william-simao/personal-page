@@ -9,7 +9,7 @@
   "pages": {
     "home": "IN&Iacute;CIO",
     "about": "SOBRE",
-    "carrer": "CARREIRA",
+    "career": "CARREIRA",
     "projects": "PROJETOS",
     "socialNetwork": "REDES SOCIAIS"
   },
@@ -39,6 +39,123 @@
     "about": {
       "title": "SOBRE MIM",
       "description": "Nesta p&aacute;gina voc&ecirc; pode escrever sobre voc&ecirc; e suas conquistas. Geralmente, o conte&uacute;do dessas p&aacute;ginas tem uma descri&ccedil;&atilde;o ampla das realiza&ccedil;&otilde;es pessoais, como datas de formatura ou viagem, e resume bem o seu hist&oacute;rico.<br /><br /> Eu recomendo que voc&ecirc; escreva um ou dois par&aacute;grafos sobre si mesmo. Para facilitar a escrita, considere esta para ser sua carta de apresenta&ccedil;&atilde;o para o visitante. Adicione informa&ccedil;&otilde;es relevantes aqui, ok?<br /><br /> Bem, para adicionar informa&ccedil;&otilde;es nesta p&aacute;gina, voc&ecirc; deve usar um pouco de HTML. N&atilde;o &eacute; nada dif&iacute;cil, mas pode ser um pouco confuso. Se voc&ecirc; quiser adicionar algum espa&ccedil;amento entre par&aacute;grafos, voc&ecirc; deve usar o c&oacute;digo &lt;br /&gt;. Este c&oacute;digo &eacute; conhecido como \"quebra de linha\", e toda vez que voc&ecirc; us&aacute;-lo ser&aacute; quebrado uma linha."
+    },
+    "career": {
+      "title": "CARREIRA",
+      "description": "Use este espa&ccedil;o para escrever sobre sua carreira. Nesta se&ccedil;&atilde;o, você deve incluir um breve hist&oacute;rico de seu trabalho, responsabilidades e fun&ccedil;&otilde;es desempenhadas.",
+      "highlights": {
+        "title": "Destaques",
+        "itens": [
+          {
+            "item": "Sua &uacute;ltima realiza&ccedil;&atilde;. [certifica&ccedil;&atilde;o/premia&ccedil;&atilde;o...]"
+          },
+          {
+            "item": "Outra realiza&ccedil;&atilde;."
+          },
+          {
+            "item": "Outra realiza&ccedil;&atilde; tamb&eacute;."
+          },
+          {
+            "item": "..."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Linha do tempo",
+        "itens": [
+          {
+            "startYear": "2019",
+            "endYear": "...",
+            "profession": "Seu cargo [professor/pesquisador/desenvolvedor...]",
+            "company": "Nome da empresa"
+          },
+          {
+            "startYear": "2015",
+            "endYear": "2019",
+            "profession": "Seu cargo [professor/pesquisador/desenvolvedor...]",
+            "company": "Nome da empresa"
+          }
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projetos",
+      "description": "Esta p&aacute;gina &eacute; dedicada a mostrar seus projetos pessoais ou profissionais. Neste lugar, voc&ecirc; pode expor t&iacute;tulo, breve resumo e fotos do projeto. Al&eacute;m disso, caso voc&ecirc; tenha lista de itens (como lista de publica&ccedil;&otilde;es), será nesta se&ccedil;&atilde;o que voc&eacute; dever&aacute; adicionar.",
+      "projects": {
+        "title": "Meus projetos",
+        "itens": [
+          {
+            "year": "2019",
+            "title": "The t&iacute;tulo do projeto.",
+            "summary": "Breve sum&aacute;rio sobre o projeto. Adicione informa&ccedil;&atilde;o importante como o foco e os problemas solucionados.",
+            "url": "https://sua-url-aqui.com"
+          },
+          {
+            "year": "2015",
+            "title": "The t&iacute;tulo de outro projeto.",
+            "summary": "Breve sum&aacute;rio sobre o projeto. Adicione informa&ccedil;&atilde;o importante como o foco e os problemas solucionados.",
+            "url": "https://sua-url-tambem-pode-ser-uma-imagem.net"
+          }
+        ]
+      },
+      "publications": {
+        "title": "Publica&ccedil;&otilde;s",
+        "itens": [
+          {
+            "year": "2019.",
+            "authors": "Primeiro autor, Segundo autor",
+            "title": "O t&iacute;tulo do artigo.",
+            "pubication": "Nome e cidade da confer&ecirc;cia/jornal.",
+            "link": "https://url-artigo.net"
+          },
+          {
+            "year": "2019.",
+            "authors": "Primeiro autor, Segundo autor",
+            "title": "O t&iacute;tulo de outro artigo.",
+            "pubication": "Nome e cidade da confer&ecirc;cia/jornal.",
+            "link": "https://url-artigo.net"
+          }
+        ]
+      },
+      "network": {
+        "title": "REDES SOCIAIS",
+        "personal": [
+          {
+            "icon": "https://icon-social-network",
+            "url": "https://your-network-link.com"
+          },
+          {
+            "icon": "https://icon-social-network",
+            "url": "https://your-network-link.com"
+          },
+          {
+            "icon": "https://icon-social-network",
+            "url": "https://your-network-link.com"
+          },
+          {
+            "icon": "https://icon-social-network",
+            "url": "https://your-network-link.com"
+          }
+        ],
+        "professional": [
+          {
+            "icon": "https://icon-social-network",
+            "url": "https://your-network-link.com"
+          },
+          {
+            "icon": "https://icon-social-network",
+            "url": "https://your-network-link.com"
+          },
+          {
+            "icon": "https://icon-social-network",
+            "url": "https://your-network-link.com"
+          },
+          {
+            "icon": "https://icon-social-network",
+            "url": "https://your-network-link.com"
+          }
+        ]
+      }
     }
   }
 }

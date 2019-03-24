@@ -9,7 +9,7 @@
   "pages": {
     "home": "HOME",
     "about": "ABOUT",
-    "carrer": "CARRER",
+    "career": "CARRER",
     "projects": "PROJECTS",
     "socialNetwork": "SOCIAL NETWORK"
   },
@@ -39,6 +39,111 @@
     "about": {
       "title": "ABOUT ME",
       "description": "On this page, you can write about yourself and your achievements. Generally, the text on these pages has a broad description of personal accomplishments, such as graduation or travel dates, and summarizes your history.<br /><br />I recommend that you write one or two paragraphs about yourself. For ease of writing, consider this to be your cover letter to your visitor. Add relevant information here, okay?<br/><br/>Well, to add information on this page you should use a bit of HTML. It's not hard at all, but it can be a bit confusing. If you want to add some spacing between the paragraphs you should use the code &lt;br /&gt;. This code is known as \"break line\" and every time you use it will be broken a line."
+    },
+    "career": {
+      "title": "CARRER",
+      "description": "Use this space to write about your career. In this section, you should include a brief history of your work, responsibilities and functions performed.",
+      "highlights": {
+        "title": "Highlights",
+        "itens": [
+          {
+            "item": "Your last realization. [certification/premiation...]"
+          },
+          {
+            "item": "Another realization."
+          },
+          {
+            "item": "Another realization also."
+          },
+          {
+            "item": "..."
+          }
+        ]
+      },
+      "timeline": {
+        "title": "Timeline",
+        "itens": [
+          {
+            "startYear": "2019",
+            "endYear": "...",
+            "profession": "Your profession [teacher/researcher/developer...]",
+            "company": "The company name"
+          },
+          {
+            "startYear": "2015",
+            "endYear": "2019",
+            "profession": "Your profession [teacher/researcher/developer...]",
+            "company": "The company name"
+          }
+        ]
+      }
+    },
+    "projects": {
+      "title": "PROJECTS",
+      "description": "This page is dedicated to show your personal or professional projects. In this place, can you exposed title, brief summary and photos of project. Furthermore, case you have list of itens (as publications list), in this section you should your add.",
+      "projects": {
+        "title": "My projects",
+        "itens": [
+          {
+            "year": "2019",
+            "title": "The title of project.",
+            "summary": "Brief summary about project. Add relevant information such as focus and problem solved through it.",
+            "url": "https://your-url-here.com"
+          },
+          {
+            "year": "2015",
+            "title": "The title of anotjer project.",
+            "summary": "Brief summary about project. Add relevant information such as focus and problem solved through it.",
+            "url": "https://your-can-img-url-here.net"
+          }
+        ]
+      },
+      "publications": {
+        "title": "Publications",
+        "itens": [
+          {
+            "year": "2019.",
+            "authors": "First author, Second author.",
+            "title": "The title of your publication",
+            "pubication": "The conference/journal name and place",
+            "link": "https://add-your-url-page.net"
+          },
+          {
+            "year": "2019.",
+            "authors": "First author, Second author.",
+            "title": "The title of your another publication",
+            "pubication": "The conference/journal name and place",
+            "link": "https://add-your-url-page.net"
+          }
+        ]
+      }
+    },
+    "network": {
+      "title": "SOCIAL NETWORK",
+      "personal": [
+        {
+          "icon": "twitter",
+          "url": "https://your-network-link.com"
+        },
+        {
+          "icon": "facebook",
+          "url": "https://your-network-link.com"
+        },
+        {
+          "icon": "instagram",
+          "url": "https://your-network-link.com"
+        }
+      ],
+      "professional": [
+        {
+          "icon": "linkedin",
+          "url": "https://your-network-link.com"
+        },
+        {
+          "icon": "package",
+          "url": "https://your-network-link.com"
+        }
+      ]
     }
   }
 }
