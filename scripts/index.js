@@ -1,10 +1,14 @@
 ﻿var language = {};
 
 $(document).ready(function () {
-    loadENLanguage();
+    if (getLanguage() === "PT")
+        loadPTLanguage();
+    else
+        loadENLanguage();
 });
 
 function loadENLanguage() {
+    changeLanguage("EN");
     $.getJSON('internalization/en.json', function (data) {
         language = data;
         setTitle();
@@ -18,6 +22,7 @@ function loadENLanguage() {
 }
 
 function loadPTLanguage() {
+    changeLanguage("PT");
     $.getJSON('internalization/pt.json', function (data) {
         language = data;
         setTitle();
@@ -43,7 +48,7 @@ function setIdentity() {
 
 function set(id, value) {
     $(`#${id}`).empty();
-    $(`#${id}`).append(replace(value));
+    $(`#${id}`).append(value);
 }
 
 function setPages() {
