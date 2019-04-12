@@ -27,5 +27,5 @@ For the configuration of the template requires a little knowledge in programming
 - Now replicate the changes in the .json file;
 - Ready, the template can be found in Portuguese or English.
 
-# Structure
+## Structure
 The model was developed using only technologies processed by the browser and based on the identification of the html tags that are read and substituents by the values ​​tracked in the `.json` files
