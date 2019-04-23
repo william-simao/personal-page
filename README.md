@@ -2,6 +2,8 @@
 
 Este é um projeto gratuito para criação de templates para páginas pessoais. O seu diferencial para os outras soluções disponíveis é a portabilidade e suporte de línguas.
 
+A versão atual pode ser consultada neste link: https://simaovski.github.io/personal-page/
+
 Para a configuração do template é exigido um pouco de conhecimento em programação, porém nada muito complexo. 
 
 ## Configuração
@@ -17,6 +19,8 @@ O template foi desenvolvido usando apenas tecnologias processadas pelo navegador
 
 # Personal page
 This is a free design template for personal pages. Its differential for the solutions available is portability and language support.
+
+The current version can be consulted at this link: https://simaovski.github.io/personal-page/
 
 For the configuration of the template requires a little knowledge in programming, but nothing too complex.
 
